@@ -5,16 +5,17 @@
 :root {
     --primary: black;
     --secondary: rgb(170, 170, 170);
-    --tertiary: ;
+    --tertiary: rgb(40, 83, 122);
     --grey: #333;
 }
 
 .header {
     background: var(--secondary);
     padding: 30px 25px;
-    border-bottom: 5px solid var(--primary);
+    border-bottom: 5px solid var(--tertiary);
     display: flex;
     justify-content: space-between;
+    color: black;
 }
 
 .page-content {
@@ -29,10 +30,10 @@
 .footer {
     width: 100%;
     background: var(--secondary);
-    color: var(--tertiary);
+    color: black;
     font-size: 2.4rem;
     padding: 20px;
-    border-top: 5px solid var(--primary);
+    border-top: 5px solid var(--tertiary);
 }
 
 .search {
@@ -43,7 +44,8 @@
 .content {
     width: 45%;
     padding: 10px;
-    border: 1px solid black;
+    border: 5px solid var(--tertiary);
+    background-color: var(--secondary);
 }
 
 .second {
@@ -52,8 +54,29 @@
     justify-content: space-evenly;
 }
 
-.second section {
+.upcoming,
+.recent-search {
+    width: 45%;
+    padding: 15px;
+    border: 5px solid var(--tertiary);
+    color: black;
+}
+
+.second section ul {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second section ul li {
+    width: 50%;
+    text-align: center;
+}
+
+.section-titles {
     width: 45%;
     padding: 5px;
-    border: 1px solid black;
+    color: black;
+    text-align: center;
 }
