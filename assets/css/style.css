@@ -3,9 +3,52 @@
 }
 
 :root {
-    --primary: ;
-    --secondary: ;
+    --primary: black;
+    --secondary: rgb(170, 170, 170);
     --tertiary: ;
     --grey: #333;
-    font-size: 62.5%;
+}
+
+.header {
+    background: var(--secondary);
+    padding: 30px 25px;
+    border-bottom: 5px solid var(--primary);
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px auto;
+    width: 95%;
+}
+
+.footer {
+    width: 100%;
+    background: var(--secondary);
+    color: var(--tertiary);
+    font-size: 2.4rem;
+    padding: 20px;
+    border-top: 5px solid var(--primary);
+}
+
+.content {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.second section {
+    width: 45%;
+    padding: 5px;
+    border: 1px solid black;
 }
