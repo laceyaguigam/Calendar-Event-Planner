@@ -13,6 +13,13 @@ So that I can plan a trip accordingly.
 *CSS
 *JavaScript
  
+
+## Website
+
+https://laceyaguigam.github.io/Calendar-Event-Planner/
+
+
+
 ## Contributing
  
 Made by Maxwell Colby, Marco Guzman, Lacey Aguigam, Guy Wilhite
