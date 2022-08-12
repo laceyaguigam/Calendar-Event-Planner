@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: ;
+    --secondary: ;
+    --tertiary: ;
+    --grey: #333;
+    font-size: 62.5%;
+}
