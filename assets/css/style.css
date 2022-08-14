@@ -3,9 +3,80 @@
 }
 
 :root {
-    --primary: ;
-    --secondary: ;
-    --tertiary: ;
+    --primary: black;
+    --secondary: rgb(170, 170, 170);
+    --tertiary: rgb(40, 83, 122);
     --grey: #333;
-    font-size: 62.5%;
+}
+
+.header {
+    background: var(--secondary);
+    padding: 30px 25px;
+    border-bottom: 5px solid var(--tertiary);
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.page-content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px auto;
+    width: 95%;
+}
+
+.footer {
+    width: 100%;
+    background: var(--secondary);
+    color: black;
+    font-size: 2.4rem;
+    padding: 20px;
+    border-top: 5px solid var(--tertiary);
+}
+
+.search {
+    padding: 10px;
+    display: flex;
+}
+
+.content {
+    width: 45%;
+    padding: 10px;
+    border: 5px solid var(--tertiary);
+    background-color: var(--secondary);
+}
+
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*.upcoming,
+.recent-search {
+    width: 45%;
+    padding: 15px;
+    border: 5px solid var(--tertiary);
+    color: black;
+} */
+
+.second section ul {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second section ul li {
+    width: 50%;
+    text-align: center;
+}
+
+.section-titles {
+    width: 45%;
+    padding: 5px;
+    color: black;
+    text-align: center;
 }

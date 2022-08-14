@@ -1,28 +1,68 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <section>
+            <h1 class="page-title">Upcoming Event Planner</h1>
+        </section>
+        <section>
+            <form class="search">
+                <input type="text" id="input" placeholder="State">
+                <input type="button" id="search" value="Search">
+            </form>
+        </section>
     </header>
 
-    <main>
-        this is a test
+    <main class="page-content">
+        <section>
+
+        </section>
+        <section class="first content">
+
+        </section>
+        <section>
+
+        </section>
+        <section class="second content">
+            <section class="section-titles">
+                <h2>Next Event</h2>
+                <div class="box">
+                 next event info here
+                </div>
+            </section>
+            <section class="section-titles">
+                <h2>Search History</h2>
+                <div class="box">
+                  search history displayed here
+                </div>
+            </section>
+            <section class="upcoming">
+
+            </section>
+            <section class="recent-search">
+                <ul id="history">
+
+                </ul>
+            </section>
+        </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+        Made By Group 7 2022
     </footer>
 
     <script src="./assets/js/script.js"></script>
 </body>
 
->>>>>>> b81d4feb2bdab5ce90c16c2828c0b520b2b61028
 </html>
