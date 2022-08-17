@@ -6,30 +6,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>Holiday Calendar</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./my style.css">
+    
 </head>
 
-<body>
-    <header>
-    </header>
+<!--Top Section-->
+<section class="hero is-info">
+  <div class="hero-body">
+    <p class="title">
+      Upcoming Holidays
+    </p>
+  </div>
 
-    <main>
-        <div class="modal">
-            <div class="modal-background"></div>
-            <div class="modal-content">
-              <!-- Any other Bulma elements you want -->
-              Yo
-            </div>
-            <button class="modal-close is-large" aria-label="close"></button>
-          </div>
-    </main>
 
-    <button class="button is-success">Button</button>
-    <footer>
-    </footer>
+    <div class="level-item">
+      <div class="field has-addons">
+        <p class="control">
+          <input class="input" type="text" placeholder="Search Holidays">
+        </p>
+        <p class="control">
+          <button class="button">
+            Search
+          </button>
+        </p>
+      </div>
+    </div>
+  </div>
 
-    <script src="./assets/js/script.js"></script>
-</body>
+</section>
+
+
+
+<!-- Middle (large hero) Section -->
+<section class="section is-large">
+  <h1 class="title">Large section</h1>
+  <h2 class="subtitle">
+    A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+  </h2>  
+
+  <!--Holiday SEction-->
+  <div class="tile is-ancestor">
+    <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-child box">
+        <p class="title">Next Holiday</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+      </div>
+
+      <!--Search History Section-->
+      <div class="tile is-child box">
+        <p class="title">Search History</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+      </div>
+    </div>
+
+    <!--Calendar Section-->
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        <p class="title">Holiday Calendar</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+        <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
+        <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer Section-->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Made By Group 7
+    </p>
+  </div>
+</footer>
+
+
+  </body>
 </html>
+
+
+
+
+  
