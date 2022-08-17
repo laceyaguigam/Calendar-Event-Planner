@@ -1,59 +1,79 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-
-<html lang="eng">
-
-<head>
-
-    <link rel="stylesheet" href="./assets/css/" />
-
-
-    <meta chaset="UTF-8" />
-
-</head>
-
-<body>
-
-
-
-</body>
-
-<footer>
-
-
-
-
-</footer>
-
-
-
-
-
-
-
-=======
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+   
+   <!--Bulma framework link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+  </head>
 
 <body>
-    <header>
+    <header class="header">
+        <section>
+            <h1 class="page-title">Upcoming Events</h1>
+        </section>
+
+<!-- search bar section-->
+        <section>
+            <form class="search">
+                <input type="text" id="input" placeholder="State">
+                <input type="button" id="search" value="Search">
+            </form>
+        </section>
     </header>
 
-    <main>
+    <main class="page-content">
+        <section>
+
+        </section>
+
+        <!--section for calendar-->
+        <section class="first content">
+          <div class="box">
+            Add calendar here.
+          </div>
+        </section>
+        <section>
+
+        </section>
+
+        <!--section for event/search history-->
+        <section class="second content">
+            <section class="section-titles">
+                <h2>Next Event</h2>
+                <div class="box">
+                 next event info here
+                </div>
+            </section>
+            <section class="section-titles">
+                <h2>Search History</h2>
+                <div class="box">
+                  search history displayed here
+                </div>
+            </section>
+            <section class="upcoming">
+
+            </section>
+            <section class="recent-search">
+                <ul id="history">
+
+                </ul>
+            </section>
+        </section>
     </main>
 
-    <footer>
+    <!--footer-->
+    <footer class="footer">
+        Made By Group 7 2022
     </footer>
 
     <script src="./assets/js/script.js"></script>
 </body>
 
->>>>>>> b81d4feb2bdab5ce90c16c2828c0b520b2b61028
 </html>
