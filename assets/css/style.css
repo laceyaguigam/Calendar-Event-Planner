@@ -10,7 +10,6 @@
     --tertiary: 
 }
 
-
 /* top hero section */
 
 .hero hero-body {
@@ -43,7 +42,6 @@
     flex-wrap:wrap;
 }
 
-
 /* make the larger section a bit smaller */
 
 /* large section */
@@ -65,7 +63,6 @@
 .tile is-parent {
 
 }
-
 
 /* Footer */
 .footer {
