@@ -1,5 +1,6 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
 }
 
 :root {
@@ -8,25 +9,66 @@
     --tertiary: 
 }
 
-.title {
-    color: black;
-    font-weight: bold;
+/* change the color of text to head section */
+
+/* top hero section */
+
+.hero is-info {
+
 }
 
-.footer p {
-    font-weight: bold;
-    ;
+.title {
+   
+}
+
+/* move search bar to the right side */
+
+/* search bar and button */
+.level-item {
+    justify-content: right;
 }
 
 
 /* make the larger section a bit smaller */
 
-/* move search bar to the right side */
+/* large section */
+.section is-large {
+    padding: 65px;
+}
 
-/* change the color of text to head section */
+/* Holiday Section */
+.tile is-ancestor {
 
-/* make space for the calendar and other sections in html*/
+}
+
+/* Search History */
+.tile is-child box {
+
+}
+
+/* Calendar Section */
+.tile is-parent {
+
+}
 
 /* change the color of the footer */
 
 /* change text to bold in footer */
+
+/* Footer */
+.footer {
+    background-color: #1778ee;  /* not sure if this blue matches the top*/
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
