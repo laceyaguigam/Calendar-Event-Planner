@@ -13,39 +13,44 @@
 <body>
     <header class="header">
         <section>
-            <h1 class="page-title">Upcoming Event Planner</h1>
+            <h2 class="page-title">Upcoming Holidays</h2>
         </section>
         <section>
             <form class="search">
-                <input type="text" id="input" placeholder="State">
+                <input type="text" id="input" placeholder="Number of Month">
                 <input type="button" id="search" value="Search">
             </form>
         </section>
     </header>
 
     <main class="page-content">
-        <section>
-
-        </section>
         <section class="first content">
-
+            <h1 class="calendar-title">Calendar</h1>
+            <section class="calendar">
+                <!-- <section class="day">
+                    <p class="day-of-week">Tuesday</p>
+                    <p class="date">8/16/2022</p>
+                    <p class="event">Memorial Day</p>
+                </section> -->
+            </section>
         </section>
         <section>
 
         </section>
         <section class="second content">
             <section class="section-titles">
-                <h2>Next Event</h2>
+                <h2>Today's Info</h2>
             </section>
             <section class="section-titles">
                 <h2>Search History</h2>
             </section>
-            <section class="upcoming">
-
+            <section class="todays-info">
+                <section class="todays-date"></section>
+                <section class="todays-day-of-week"></section>
+                <section class="todays-event"></section>
             </section>
             <section class="recent-search">
                 <ul id="history">
-
                 </ul>
             </section>
         </section>
@@ -54,7 +59,7 @@
     <footer class="footer">
         Made By Group 2022
     </footer>
-
+    <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 

@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    margin: auto 0;
+}
+
 :root {
     --primary: black;
     --secondary: rgb(170, 170, 170);
@@ -46,6 +56,11 @@
     padding: 10px;
     border: 5px solid var(--tertiary);
     background-color: var(--secondary);
+    border-radius: 25px;
+}
+
+.first {
+    justify-content: center;
 }
 
 .second {
@@ -54,12 +69,13 @@
     justify-content: space-evenly;
 }
 
-.upcoming,
+.todays-info,
 .recent-search {
     width: 45%;
     padding: 15px;
     border: 5px solid var(--tertiary);
     color: black;
+    height: 90%;
 }
 
 .second section ul {
@@ -79,4 +95,49 @@
     padding: 5px;
     color: black;
     text-align: center;
+    height: 10%;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+}
+
+.calendar {
+    border-top: 5px solid var(--tertiary);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.calendar-title {
+    text-align: center;
+    padding: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+}
+
+.day {
+    border: 3px solid var(--tertiary);
+    height: 100px;
+    width: 14.2857142857%;
+}
+
+.calendar p {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+.event {
+    margin-top: 10px;
+}
+
+.todays-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.todays-info section {
+    text-align: center;
+    width: 100%;
 }
