@@ -1,79 +1,76 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Event Planner</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-   
-   <!--Bulma framework link-->
+    <title>Holiday Calendar</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-  </head>
+    
+</head>
 
-<body>
-    <header class="header">
-        <section>
-            <h1 class="page-title">Upcoming Events</h1>
-        </section>
+<!--Top Section-->
+<section class="hero is-info">
+  <div class="hero-body">
+    <p class="title">
+      Upcoming Holidays
+    </p>
+  </div>
 
-<!-- search bar section-->
-        <section>
-            <form class="search">
-                <input type="text" id="input" placeholder="State">
-                <input type="button" id="search" value="Search">
-            </form>
-        </section>
-    </header>
 
-    <main class="page-content">
-        <section>
+    <div class="level-item">
+      <div class="field has-addons">
+        <p class="control">
+          <input class="input" type="text" placeholder="Search Holidays">
+        </p>
+        <p class="control">
+          <button class="button">
+            Search
+          </button>
+        </p>
+      </div>
+    </div>
+</section>
 
-        </section>
 
-        <!--section for calendar-->
-        <section class="first content">
-          <div class="box">
-            Add calendar here.
-          </div>
-        </section>
-        <section>
 
-        </section>
+<!-- Middle (large hero) Section -->
+<section class="section is-large">
+  
+  <!--Holiday Section-->
+  <div class="tile is-ancestor">
+    <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-child box">
+        <p class="title">Next Holiday</p>
+      </div>
 
-        <!--section for event/search history-->
-        <section class="second content">
-            <section class="section-titles">
-                <h2>Next Event</h2>
-                <div class="box">
-                 next event info here
-                </div>
-            </section>
-            <section class="section-titles">
-                <h2>Search History</h2>
-                <div class="box">
-                  search history displayed here
-                </div>
-            </section>
-            <section class="upcoming">
+      <!--Search History Section-->
+      <div class="tile is-child box">
+        <p class="title">Search History</p>
+      </div>
+    </div>
 
-            </section>
-            <section class="recent-search">
-                <ul id="history">
+    <!--Calendar Section-->
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        <p class="title">Holiday Calendar</p>
+      </div>
+    </div>
+  </div>
+</section>  
 
-                </ul>
-            </section>
-        </section>
-    </main>
+<!--Footer Section-->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Made By Group 7
+    </p>
+  </div>
+</footer>
 
-    <!--footer-->
-    <footer class="footer">
-        Made By Group 7 2022
-    </footer>
 
-    <script src="./assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>

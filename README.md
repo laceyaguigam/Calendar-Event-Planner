@@ -1,10 +1,10 @@
 # Calendar Event Planner
  
-We created a web application that allows users to search for upcoming events by state. The user is able to sort through events by category such as upcoming sporting and concert events and plan their trip accordingly.
+We created a web application that allows users to search for upcoming holidays. The user is able to sort through various holidays using the calendar, allowing them to plan their trip accordingly.
  
-As an event enthusiast
-I want to see upcoming events by state
-So that I can plan a trip accordingly.
+As a travel enthusiast
+I want to see upcoming holidays
+So that I can plan trips accordingly.
  
  
 ## Usage
@@ -12,12 +12,12 @@ So that I can plan a trip accordingly.
 *HTML
 *CSS
 *JavaScript
+*Bulma
  
 
 ## Website
 
-https://laceyaguigam.github.io/Calendar-Event-Planner/
-
+ https://laceyaguigam.github.io/Holiday-Calendar-/
 
 
 ## Contributing

@@ -1,80 +1,63 @@
+
 * {
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
 }
 
 :root {
-    --primary: black;
-    --secondary: rgb(170, 170, 170);
-    --tertiary: rgb(40, 83, 122);
-    --grey: #333;
+    --primary:
+    --secondary:
+    --tertiary: 
 }
 
-.header {
-    background: var(--secondary);
-    padding: 30px 25px;
-    border-bottom: 5px solid var(--tertiary);
-    display: flex;
-    justify-content: space-between;
-    color: black;
+/* change the color of text to head section */
+
+/* top hero section */
+
+.hero is-info {
+
 }
 
-.page-title {
-    font-size:xx-large;
+.title {
+   color: black;
 }
 
-.page-content {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 25px auto;
-    width: 95%;
+/* move search bar to the right side */
+
+/* search bar and button */
+.level-item {
+    justify-content: right;
 }
 
+
+/* make the larger section a bit smaller */
+
+/* large section */
+.section is-large {
+   max-height: ;
+}
+
+/* Holiday Section */
+.tile is-ancestor {
+
+}
+
+/* Search History */
+.tile is-child box {
+
+}
+
+/* Calendar Section */
+.tile is-parent {
+
+}
+
+/* change the color of the footer */
+
+/* change text to bold in footer */
+
+/* Footer */
 .footer {
-    width: 100%;
-    background: var(--secondary);
-    color: black;
-    font-size: 2.4rem;
-    padding: 20px;
-    border-top: 5px solid var(--tertiary);
-}
-
-.search {
-    padding: 10px;
-    display: flex;
-}
-
-.content {
-    width: 45%;
-    padding: 10px;
-    border: 5px solid var(--tertiary);
-    background-color: var(--secondary);
-}
-
-.second {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-
-.second section ul {
-    padding-left: 0px;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.second section ul li {
-    width: 50%;
-    text-align: center;
-}
-
-.section-titles {
-    width: 45%;
-    padding: 5px;
-    color: black;
-    text-align: center;
+    background-color: #1778ee;  /* not sure if this blue matches the top*/
+    font-weight: bold;
 }
