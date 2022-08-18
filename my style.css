@@ -1,0 +1,14 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+:root {
+    --primary:
+    --secondary:
+    --tertiary: 
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+}
